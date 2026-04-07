@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+  
+  <title>Virtual Folio - Portfolio HTML5 Template</title>
+
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/vendor/owl-carousel/owl.carousel.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/vendor/nice-select/css/nice-select.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/topbar.virtual.css">
+</head>
+<body class="theme-red">
+  
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div>
+  
+  <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image_1.jpg)">
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+      <div class="container">
+        <a href="" class="navbar-brand">V-Folio</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-animate="scrolling" data-translate="nav-home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling" data-translate="nav-about">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-animate="scrolling" data-translate="nav-portfolio">Portfolio</a>
+            </li>
+          </ul>
+          <ul class="nav ml-auto">
+            <li class="nav-item">
+              <button class="btn btn-fab btn-theme no-shadow" onclick="changeLanguage(localStorage.getItem('language') === 'en' ? 'es' : 'en')" data-translate="btn-lang">Es</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
+    <!-- Caption header -->
+    <div class="caption-header text-center wow zoomInDown">
+      <h5 class="fw-normal" data-translate="welcome">Welcome</h5>
+      <h1 class="fw-light mb-4" data-translate="title">I'm Carlos Loreto Jiménez Viso</h1>
+      <div class="badge" data-translate="profession">IT Systems Technician & Cybersecurity Specialist</div>
+    </div> <!-- End Caption header -->
+    <div class="floating-button"><span class="ti-mouse"></span></div>
+  </div>
+  
+  <div class="vg-page page-about" id="about">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-4 py-3">
+          <div class="img-place wow fadeInUp">
+            <img src="assets/img/person.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+          <h1 class="fw-light">Carlos Loreto Jiménez Viso</h1>
+          <h5 class="fg-theme mb-3" data-translate="profession">IT Systems Technician & Cybersecurity Specialist</h5>
+          <p class="text-muted" data-translate-p="about-text">I am an IT Systems Technician with a strong interest in cybersecurity...</p>
+          <ul class="theme-list">
+            <li><b data-translate="from">From:</b> Alcanar, Tarragona, España</li>
+            <li><b data-translate="lives-in">Lives In:</b> Alcanar, Tarragona (43530)</li>
+            <li><b data-translate="age">Age:</b> 22</li>
+            <li><b data-translate="gender">Gender:</b> Male</li>
+          </ul>
+          <a href="assets/cv/cv.pdf" download="cv.pdf" class="btn btn-theme-outline" data-translate="download-cv">Download CV</a>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+      <h1 class="text-center fw-normal wow fadeIn" data-translate="my-skills">My Skills</h1>
+      <div class="row py-3">
+        <div class="col-md-6">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp" data-translate="it-skills">IT skills</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Networking</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Servers Management</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Operating Systems</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 82%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">82%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Active Directory</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="px-lg-3">
+            <h4 class="wow fadeInUp" data-translate="cybersecurity-skills">Cybersecurity skills</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Red Team</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Blue Team</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Purple Team</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 78%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">78%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-6 wow fadeInRight">
+          <h2 class="fw-normal" data-translate="education">Education</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2026</div>
+              <div class="details">
+                <h5 data-translate="specialist-2026">Cybersecurity Specialist</h5>
+                <small class="fg-theme"><a href="https://agora.xtec.cat/insmontsia/" target="_blank" rel="noopener noreferrer">IES Montsià</a></small>
+                <p data-translate-p="cybersecurity-spec-desc">During my cybersecurity specialization, I gained hands-on experience in ethical hacking, digital forensics and network security through practical labs. I also developed skills in SOC operations, incident detection and response, as well as knowledge of cybersecurity regulations and legal frameworks.</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2025</div>
+              <div class="details">
+                <h5 data-translate="asir">Higher Technician in Network Systems Administration (ASIR)</h5>
+                <small class="fg-theme"><a href="https://agora.xtec.cat/insmontsia/" target="_blank" rel="noopener noreferrer">IES Montsià</a></small>
+                <p data-translate-p="asir-desc">During the Network Systems Administration (ASIR) program, I worked in hands-on environments based on real-world scenarios, managing production services and troubleshooting IT-related incidents. I gained experience in administering Linux and Windows systems, including domain management with Active Directory, as well as deploying and maintaining virtualized infrastructures using Proxmox.
+
+In addition, I worked with network services and SQL databases, automated tasks using Ansible playbooks, and developed scripts in Python. I also participated in database design and management, building a solid technical foundation focused on systems administration, automation, and problem-solving in professional IT environments.</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2023</div>
+              <div class="details">
+                <h5 data-translate="smr">Microcomputer Systems and Networks Technician (SMR)</h5>
+                <small class="fg-theme"><a href="https://agora.xtec.cat/insmontsia/" target="_blank" rel="noopener noreferrer">IES Montsià</a></small>
+                <p data-translate-p="smr-desc">During the SMX program, I acquired hands-on experience in hardware maintenance, operating system installation and configuration (Windows and Linux), and basic network setup. I worked on troubleshooting technical issues, system support and user assistance in practical environments.
+
+I also developed skills in diagnosing hardware and software failures, configuring network services at a basic level, and supporting IT infrastructures, building a strong technical foundation for further specialization in systems administration and cybersecurity.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+          <h2 class="fw-normal" data-translate="experience">Experience</h2>
+          <ul class="timeline mt-4 pr-md-5">
+            <li>
+              <div class="title">2024-2025</div>
+              <div class="details">
+                <h5 data-translate="it-specialist">IT Specialist</h5>
+                <small class="fg-theme"><a href="https://microdelta.net/" target="_blank" rel="noopener noreferrer">Microdelta</a></small>
+                <p data-translate-p="it-specialist-desc">Level 1/2 technical support to users, resolving incidents in systems, networks and services. Configuration and maintenance of computers, routers, servers and local networks.
+
+Hardware assembly and maintenance, database and software administration, and basic web development. Experience in troubleshooting, analysis and problem-solving in production environments.</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2023 – 2024</div>
+              <div class="details">
+                <h5 data-translate="internship">Internship Student</h5>
+                <small class="fg-theme"><a href="https://agora.xtec.cat/insdespuig/" target="_blank" rel="noopener noreferrer">INSTITUT CRISTÒFOL DESPUIG</a></small>
+                <p data-translate="internship-2023-desc">Level 1 technical support, incident management through ticketing systems and problem resolution in IT environments. Maintenance of hardware, networks and rack organization.</p>
+              </div>
+            </li>
+            <li>
+              <div class="title">2021 – 2022</div>
+              <div class="details">
+                <h5 data-translate="internship">Internship Student</h5>
+                <small class="fg-theme"><a href="https://www.gefapreven.com/ca/" target="_blank" rel="noopener noreferrer">GEFA PREVEN</a></small>
+                <p data-translate="internship-2021-desc">Level 1 technical support, incident resolution and system maintenance. Administration of the corporate web portal and management of the Moodle platform.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="vg-page page-service">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead" data-translate="service">Service</div>
+      </div>
+      <h1 class="fw-normal text-center wow fadeInUp" data-translate="what-can-do">What can i do?</h1>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-paint-bucket"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme" data-translate="systems-admin">Systems Administration</h4>
+              <p data-translate="systems-admin-desc">Linux & Windows systems administration, Active Directory/LDAP management and virtualization with Proxmox.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-search"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme" data-translate="cybersecurity-hacking">Cybersecurity & Ethical Hacking</h4>
+              <p data-translate="cybersecurity-desc">Knowledge in security operations, monitoring and incident response (SOC), combined with hands-on experience in penetration testing and vulnerability analysis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-vector"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme" data-translate="networking">Networking & Infrastructure</h4>
+              <p data-translate="networking-desc">Design, configuration and troubleshooting of network infrastructures, including routers, VLANs and enterprise environments. Experience in firewall configuration, traffic control and system hardening for enhanced security.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-desktop"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme" data-translate="automation">Automation & Scripting</h4>
+              <p data-translate="automation-desc">Automation of systems and processes using Ansible, Python and Bash scripting. Development of custom scripts for system administration, security tasks and infrastructure management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="vg-page page-portfolio" id="portfolio">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="badge badge-subhead" data-translate="portfolio">Portfolio</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp" data-translate="see-my-work">See my work</h1>
+      <div class="row justify-content-center mt-5 wow fadeInUp">
+        <div class="col-lg-8">
+          <p class="text-center text-muted" data-translate-p="portfolio-text">Throughout my career, I have developed and contributed to multiple projects involving systems administration, cybersecurity, and infrastructure management. My work includes configuring production environments, implementing security measures, automating processes, and providing technical support in professional IT environments. I have hands-on experience working with Linux and Windows systems, network infrastructure, virtualization platforms, and security tools. Each project has allowed me to apply and expand my technical knowledge while following best practices and industry standards.</p>
+          <div class="text-center mt-4">
+            <a href="https://github.com/CarlosJimenez2003/TryHackMe-Machines-Writetabs" target="_blank" rel="noopener noreferrer" class="btn btn-theme-outline">TryHackMe Walkthrough</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Portfolio page -->
+  
+  <!-- Footer -->
+  <div class="vg-footer">
+    <h1 class="text-center">Virtual Folio</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="float-lg-left">
+            <p data-translate="follow-me">Follow me</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li><a href="https://www.instagram.com/caarletto?igsh=MXI2MndnYW1ib3czMA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/in/carlos-loreto-jim%C3%A9nez-viso-a3a2b620b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/CarlosJimenez2003" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 py-3">
+          <div class="float-lg-right">
+            <p data-translate="contact-me">Contact me</p>
+            <hr class="divider">
+            <ul class="list-unstyled">
+              <li>carlosjimenezvisopaypal@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-12">
+          <p class="text-center mb-0 mt-4" data-translate="copyright">Copyright ©2026. All right reserved | Carlos Loreto Jiménez Viso</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End footer -->
+  
+  
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+  <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+    
+  <script src="assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    
+  <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+    
+  <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    
+  <script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="assets/vendor/wow/wow.min.js"></script>
+
+  <script src="assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+  <script src="assets/js/google-maps.js"></script>
+    
+  <script src="assets/js/topbar-virtual.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+  
+</body>
+</html>
